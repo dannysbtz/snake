@@ -1,0 +1,43 @@
+#contenedor{
+    position: relative;
+    overflow: hidden;
+    width: 800px;
+    height: 600px;
+    background-color: bisque;
+}
+
+h1{
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.603);
+}
+
+#snake{
+    display: block;
+    position: absolute;
+    z-index: 10;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    right: 0;
+    top: 0;
+}
+
+.body{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(15, 116, 13);
+}
+
+body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+html{
+    background-color: aquamarine;
+}
